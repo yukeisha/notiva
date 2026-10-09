@@ -1,0 +1,8 @@
+[package]
+name = "notiva"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+lumia = { git = "https://github.com/yukeisha/lumia.git", branch = "main" }
+tokio = { version = "1.53.2", features = ["full"] }
